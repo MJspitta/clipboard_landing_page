@@ -1,0 +1,459 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* General Styling */
+
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18px;
+}
+
+h1, h2, h3 {
+    color: hsl(210, 10%, 33%);
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.67rem;
+}
+
+p {
+    color: hsl(201, 11%, 66%);
+    font-weight: 400;
+    line-height: 1.7;
+}
+
+button {
+    font-weight: 600;
+    font-size: 1rem;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+/* Section Styling - Header */
+
+header {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing-page {
+    width: 45%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header-logo {
+    margin-bottom: 3rem;
+}
+
+h1 {
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+}
+
+.download-btns {
+    margin-top: 2.5rem;
+}
+
+.download-btns button {
+    padding: 1rem 2rem;
+    border-radius: 3rem;
+    border: none;
+    color: white;
+}
+
+.cyan-btn {
+    background-color: hsl(171, 66%, 44%);
+    margin-right: 0.5rem;
+}
+
+.cyan-btn:hover {
+    background-color: hsl(171, 91%, 44%);
+    cursor: pointer;
+}
+
+.blue-btn {
+    background-color: hsl(233, 100%, 69%);
+    margin-left: 0.5rem;
+}
+
+.blue-btn:hover {
+    background-color: hsl(233, 70%, 69%);
+    cursor: pointer;
+}
+
+/* Section Styling - Main */
+
+.section1 {
+    width: 100%;
+}
+
+.section1-top {
+    width: 45%;
+    margin: 0 auto 6rem;
+    text-align: center;
+}
+
+.section1-top h2 {
+    margin-bottom: 1rem;
+}
+
+.section1-bottom {
+    display: flex;
+}
+
+.s1bottom-left {
+    width: 50%;
+    margin-right: 7rem;
+}
+
+.computer-img {
+    width: 100%;
+}
+
+.s1bottom-right {
+    width: 27%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.sub-section1 h3 {
+    margin-bottom: 1rem;
+}
+
+.section2 {
+    width: 100%;
+    margin-top: 9rem;
+    text-align: center;
+}
+
+.section2-top {
+    width: 45%;
+    margin: 0 auto 6rem;
+}
+
+.section2-top h2 {
+    margin-bottom: 1rem;
+}
+
+.section2-bottom {
+    width: 60%;
+    margin: 0 auto;    
+}
+
+.devices-img {
+    width: 100%;
+}
+
+.section3 {
+    width: 100%;
+    margin-top: 6rem;
+    text-align: center;
+}
+
+.section3-top {
+    width: 45%;
+    margin: 0 auto 5rem;
+}
+
+.section3-top h2 {
+    margin-bottom: 1rem;
+}
+
+.section3-bottom {
+    display: flex;
+    justify-content: center;
+}
+
+.sub-section3 {
+    width: 27%;
+    padding: 1rem;
+}
+
+.sub-section3 img {
+    height: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.sub-section3 h3 {
+    margin-bottom: 1rem;
+}
+
+.section4 {
+    width: 80%;
+    margin: 6rem auto 7rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub-section4 {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section5 {
+    width: 50%;
+    margin: 0 auto 10rem;
+    text-align: center;
+}
+
+.section5 h2 {
+    margin-bottom: 1rem;
+}
+
+/* Section Styling - Footer */
+
+footer {
+    background-color: hsl(201, 11%, 95%);
+    width: 100%;
+    padding: 4rem 0;
+}
+
+.footer-container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.c-links {
+    display: flex;
+    width: 85%;
+}
+
+.logo {
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo {
+    width: 3rem;
+    height: 3rem;
+}
+
+.links {
+    width: 55%;
+    display: grid;
+    grid-template-areas: 
+        'one three five'
+        'two four .';
+    justify-content: space-between;
+    row-gap: 1rem;
+}
+
+.links a {
+    text-decoration: none;
+    color: hsl(210, 10%, 33%);
+    font-weight: 400;
+}
+
+.links a:hover {
+    color: hsl(171, 66%, 44%);
+}
+
+.link1{
+    grid-area: one;
+}
+
+.link2{
+    grid-area: two;
+}
+
+.link3{
+    grid-area: three;
+}
+
+.link4{
+    grid-area: four;
+}
+
+.link5{
+    grid-area: five;
+}
+
+.socials {
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.socials i {
+    color: hsl(210, 10%, 33%);
+}
+
+.socials i:hover {
+    color: hsl(171, 66%, 44%);
+}
+
+@media only screen and (max-width: 375px) {
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.17rem;
+    }
+
+    p {
+        font-size: 1.03rem;
+    }
+
+    header {
+        height: auto;
+    }
+
+    .landing-page {
+        width: 85%;
+    }
+
+    .header-logo {
+        margin-top: 9rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .download-btns button {
+        width: 100%;
+    }
+
+    .cyan-btn {
+        margin: 0 0 2rem;
+    }
+
+    .blue-btn {
+        margin: 0;
+    }
+
+    .section1 {
+        margin-top: 9rem;
+    }
+
+    .section1-top {
+        width: 80%;
+        margin-bottom: 4rem;
+    }
+
+    .section1-bottom {
+        flex-direction: column;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .s1bottom-left {
+        width: 100%;
+        margin: 0;
+    }
+
+    .s1bottom-right {
+        width: 100%;
+        text-align: center;
+        margin-top: 3rem;
+    }
+
+    .sub-section1 {
+        margin-bottom: 3rem;
+    }
+
+    .section2 {
+        margin-top: 6rem;
+    }
+
+    .section2-top {
+        width: 83%;
+        margin-bottom: 4rem;
+    }
+
+    .section2-bottom {
+        width: 83%;
+    }
+
+    .section3-top {
+        width: 80%;
+    }
+
+    .section3-bottom {
+        flex-direction: column;
+        width: 80%;
+        margin: 0 auto;
+        /* text-align: center; */
+    }
+
+    .sub-section3 {
+        width: 100%;
+        padding: 0;
+        margin-bottom: 3rem;
+    }
+
+    .section4 {
+        margin-top: 3rem;
+        flex-direction: column;
+    }
+
+    .sub-section4 {
+        margin-bottom: 3rem;
+    }
+
+    .stop-margin {
+        margin-bottom: 2rem;
+    }
+
+    .section5 {
+        width: 79%;
+    }
+
+    .footer-container {
+        flex-direction: column;
+    }
+
+    .c-links {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .logo {
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 2.5rem;
+    }
+
+    .links {
+        width: 100%;
+        grid-template-areas: 
+            'one'
+            'two'
+            'three'
+            'four'
+            'five';
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    .space {
+        margin-bottom: 0.5rem;
+    }
+
+    .socials {
+        width: 50%;
+        margin: 3rem auto 0;
+    }
+
+
+}
