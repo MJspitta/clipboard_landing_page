@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Clipboard Landing Page Solution](https://your-solution-url.com)
-- Live Site URL: [Clipboard Landing Page Live Site](https://your-live-site-url.com)
+- Solution URL: [Clipboard Landing Page Solution](https://www.frontendmentor.io/solutions/clipboard-landing-page-5Z0JBZfLa0)
+- Live Site URL: [Clipboard Landing Page Live Site](https://mjspitta.github.io/clipboard_landing_page/)
 
 ## My process
 
